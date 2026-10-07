@@ -83,3 +83,53 @@ frogger/
     ├── vehicle.py
     ├── collisions.py
     └── renderer.py
+
+## Completed Tasks
+
+### Task 1 – Vehicle Collision Detection
+- Implemented reliable collision detection using Pygame rectangle overlap.
+- The frog loses a life when it overlaps with a vehicle.
+
+### Task 2 – Lives and Respawn
+- Added 3 lives for each game.
+- After a collision, the frog respawns at the starting position.
+- When all 3 lives are lost, the game displays Game Over.
+- Press `R` to restart the game.
+
+### Task 3 – Goal, Score and Win State
+- Added a goal row at the top of the game.
+- Reaching the goal awards 100 points.
+- The game displays a `YOU WIN!` state.
+- Press `R` to restart after winning.
+
+### Task 4 – 30-Second Countdown
+- Added a 30-second countdown for every attempt.
+- When the timer reaches zero, the current attempt is lost.
+- The frog respawns and the timer resets to 30 seconds.
+- If all lives are lost, the game ends.
+
+## Controls
+
+| Key | Action |
+|---|---|
+| ↑ | Move Up |
+| ↓ | Move Down |
+| ← | Move Left |
+| → | Move Right |
+| R | Restart |
+
+## Testing
+
+The completed game was tested for:
+
+- Vehicle collision
+- Life reduction
+- Frog respawn
+- Game Over
+- 30-second timeout
+- Goal detection
+- Score tracking
+- Win state
+- Game restart
+
+Before and after demonstration videos were also recorded.
